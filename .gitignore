@@ -1,0 +1,22 @@
+# --- Data (never commit Kaggle data) ---
+data/raw/
+data/processed/
+data/interim/
+
+# --- Model artifacts / experiment tracking ---
+models/
+mlruns/
+*.pkl
+*.joblib
+*.zip
+
+# --- Secrets / credentials ---
+.kaggle/
+kaggle.json
+.env
+
+# --- Python ---
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+.DS_Store
